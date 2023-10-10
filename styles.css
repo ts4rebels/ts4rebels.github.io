@@ -1,4 +1,6 @@
-body { background-color: #363a4a; color: #eee; font-family: 'Nunito Sans', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,200;1,6..12,300;1,6..12,400&display=swap');
+
+body { background-color: #363a4a; color: #e5e7eb; font-family: 'Nunito Sans', sans-serif; font-weight: 300; }
 a { color: #15c1ab; text-decoration: none; }
   a:hover { color: #ad9cea; }
 header, h2, .center { text-align: center; }
@@ -8,7 +10,7 @@ dl.faq dt { font-size: larger; font-weight: bold; background-color: #2a2e3c; dis
 .container { margin: 2rem 1.5rem; }
 section.faq header::after, .line::after { display: block; content: ""; background: #9ca3af; height: 1px; width: 90px; margin: 1rem auto 0; }
 .faq { margin-top: 2.5rem; }
-.highlight { background-color: #18181b; padding: 0 .2rem; font-family: Monospace, sans-serif; }
+.highlight { background-color: #18181b; padding: 0 .2rem; border-radius: 2px; font-family: Monospace, sans-serif; }
 .mt-2 { margin-top: 2rem; }
 
 @media only screen and (min-width: 768px) {
