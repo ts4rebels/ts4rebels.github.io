@@ -5,6 +5,7 @@ a { color: #15c1ab; text-decoration: none; }
   a:hover { color: #ad9cea; }
 header, h2, .center { text-align: center; }
 nav ul { list-style: none; padding: 0; }
+blockquote { border-left: 3px solid #6b7280; padding-left: 1rem; }
 .box { background-color: #2a2e3c; border: 1px solid #171717; padding: 0 1rem; border-radius: 6px; }
 dl.faq dt { font-size: larger; font-weight: bold; background-color: #2a2e3c; display: inline-block; }
 .container { margin: 2rem 1.5rem; }
