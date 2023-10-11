@@ -7,7 +7,7 @@ header, h2, .center { text-align: center; }
 nav ul { list-style: none; padding: 0; }
 blockquote { border-left: 3px solid #6b7280; padding-left: 1rem; }
 .box { background-color: #2a2e3c; border: 1px solid #171717; padding: 0 1rem; border-radius: 6px; }
-dl.faq dt { font-size: larger; font-weight: bold; background-color: #2a2e3c; display: inline-block; }
+dl.faq dt { font-size: larger; font-weight: bold; }
 .container { margin: 2rem 1.5rem; }
 section.faq header::after, .line::after { display: block; content: ""; background: #9ca3af; height: 1px; width: 90px; margin: 1rem auto 0; }
 .highlight { background-color: #18181b; padding: 0 .2rem; border-radius: 2px; font-family: Monospace, sans-serif; }
