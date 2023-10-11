@@ -10,7 +10,6 @@ blockquote { border-left: 3px solid #6b7280; padding-left: 1rem; }
 dl.faq dt { font-size: larger; font-weight: bold; background-color: #2a2e3c; display: inline-block; }
 .container { margin: 2rem 1.5rem; }
 section.faq header::after, .line::after { display: block; content: ""; background: #9ca3af; height: 1px; width: 90px; margin: 1rem auto 0; }
-.faq { margin-top: 2.5rem; }
 .highlight { background-color: #18181b; padding: 0 .2rem; border-radius: 2px; font-family: Monospace, sans-serif; }
 .mt-2 { margin-top: 2rem; }
 
