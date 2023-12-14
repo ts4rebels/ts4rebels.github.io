@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;1,6..12,200;1,6..12,300;1,6..12,400&display=swap');
 
-body { background-color: #363a4a; color: #e5e7eb; font-family: 'Nunito Sans', sans-serif; font-weight: 300; }
+body { background-color: #363a4a; color: #eee; font-family: 'Nunito Sans', sans-serif; font-weight: 300; }
 a { color: #15c1ab; text-decoration: none; }
   a:hover { color: #ad9cea; }
-header, h2, .center { text-align: center; }
-nav ul { list-style: none; padding: 0; }
-blockquote { border-left: 3px solid #6b7280; padding-left: 1rem; }
-img { max-width: 100%; margin: 0 auto; }
-.box { background-color: #2a2e3c; border: 1px solid #171717; padding: 0 1rem; border-radius: 6px; }
-dl.faq dt { font-size: larger; font-weight: bold; }
-.container { margin: 2rem 1.5rem; }
-section.faq header::after, .line::after { display: block; content: ""; background: #9ca3af; height: 1px; width: 90px; margin: 1rem auto 0; }
-.highlight { background-color: #18181b; padding: 0 .2rem; border-radius: 2px; font-family: Monospace, sans-serif; }
+header { text-align: center; }
+nav ul, footer ul { list-style: none; text-align: center; padding: 0; }
+footer ul li { display: inline; margin: 0 .5rem; }
+blockquote { margin: 0; }
+img { display: block; width: 100%; }
+.iconify { color: #eee; }
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 1rem; }
 .mt-2 { margin-top: 2rem; }
+.mb-0 { margin-bottom: 0; }
+.center { text-align: center; }
+.box { background-color: #2a2e3c; border: 1px solid #171717; padding: 1rem; border-radius: 6px; }
+.container { margin: 2rem 1.5rem; }
+.a-block { padding-left: 1.5rem; }
+.center { text-align: center; }
+.faq { margin-top: 2.5rem; }
 
 @media only screen and (min-width: 768px) {
   body { width: 768px; margin: 0 auto; }
+  nav ul li { display: inline; margin: 0 .75rem; }
 }
